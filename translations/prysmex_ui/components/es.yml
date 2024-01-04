@@ -1,0 +1,171 @@
+r_rule_generator:
+  locale: 'es-mx'
+  invalid_rrule: Proporcionaste un valor de RRule inválido. '{value}' no es una RRule válida.
+  months:
+    jan: 'Enero'
+    feb: 'Febrero'
+    mar: 'Marzo'
+    apr: 'Abril'
+    may: 'Mayo'
+    jun: 'Junio'
+    jul: 'Julio'
+    aug: 'Agosto'
+    sep: 'Septiembre'
+    oct: 'Octubre'
+    nov: 'Noviembre'
+    dec: 'Diciembre'
+
+  days_short:
+    mon: 'Lun'
+    tue: 'Mar'
+    wed: 'Mié'
+    thu: 'Jue'
+    fri: 'Vie'
+    sat: 'Sáb'
+    sun: 'Dom'
+
+  days:
+    monday: 'Lunes'
+    tuesday: 'Martes'
+    wednesday: 'Miércoles'
+    thursday: 'Jueves'
+    friday: 'Viernes'
+    saturday: 'Sábado'
+    sunday: 'Domingo'
+    day: 'Día'
+    weekday: 'Día de la semana'
+    weekend_day: 'Día del fin de semana'
+
+  numerals_by_number:
+    1: '1'
+    2: '2'
+    3: '3'
+    4: '4'
+    5: '5'
+    6: '6'
+    7: '7'
+    8: '8'
+    9: '9'
+    10: '10'
+    11: '11'
+    12: '12'
+    13: '13'
+    14: '14'
+    15: '15'
+    16: '16'
+    17: '17'
+    18: '18'
+    19: '19'
+    20: '20'
+    21: '21'
+    22: '22'
+    23: '23'
+    24: '24'
+    25: '25'
+    26: '26'
+    27: '27'
+    28: '28'
+    29: '29'
+    30: '30'
+    31: '31'
+    '-1': 'Último'
+    '-2': 'Penúltimo'
+    '-3': 'Antepenúltimo'
+    '-4': 'Cuarto para el último'
+    '-5': 'Quinto para el último'
+    '-6': 'Sexto para el último'
+    '-7': 'Séptimo para el último'
+    '-8': 'Octavo para el último'
+    '-9': 'Noveno para el último'
+    '-10': 'Décimo para el último'
+    '-11': 'Decimoprimero para el último'
+    '-12': 'Decimosegundo para el último'
+    '-13': 'Decimotercero para el último'
+    '-14': 'Decimocuarto para el último'
+    '-15': 'Decimoquinto para el último'
+    '-16': 'Decimosexto para el último'
+    '-17': 'Decimoséptimo para el último'
+    '-18': 'Decimooctavo para el último'
+    '-19': 'Decimonoveno para el último'
+    '-20': 'Vigésimo para el último'
+    '-21': 'Vigesimoprimero para el último'
+    '-22': 'Vigesimosegundo para el último'
+    '-23': 'Vigesimotercero para el último'
+    '-24': 'Vigesimocuarto para el último'
+    '-25': 'Vigesimoquinto para el último'
+    '-26': 'Vigesimosexto para el último'
+    '-27': 'Vigesimoséptimo para el último'
+    '-28': 'Vigesimooctavo para el último'
+    '-29': 'Vigesimonoveno para el último'
+    '-30': 'Trigésimo para el último'
+
+  numerals:
+    first: 'Primer'
+    second: 'Segundo'
+    third: 'Tercer'
+    fourth: 'Cuarto'
+    last: 'Último'
+
+  start:
+    label: 'Empezar'
+    on: 'en'
+
+  repeat:
+    label: 'Repite'
+    yearly:
+      label: 'Anual'
+      on: 'en el día'
+      on_the: 'en el'
+      of: 'de'
+      every: 'Cada'
+      years: 'año(s)'
+
+    monthly:
+      label: 'Mensual'
+      every: 'Cada'
+      months: 'mes(es)'
+      on_day: 'en día'
+      on_the: 'en el'
+
+    weekly:
+      label: 'Semanal'
+      every: 'Cada'
+      weeks: 'semana(s)'
+
+    daily:
+      label: 'Diario'
+      every: 'Cada'
+      days: 'día(s)'
+
+    hourly:
+      label: 'Horas'
+      every: 'Cada'
+      hours: 'hora(s)'
+    
+    minutely:
+      label: 'Minutos'
+      every: 'Cada'
+      minutes: 'minuto(s)'
+
+  end:
+    label: 'Condición para detener'
+    tooltip: Selector de fechas para terminar en día
+    never: 'Correr siempre'
+    never_help: 'El evento se repetirá siempre'
+    on_date: 'Correr hasta una fecha'
+    on_date_help: 'El evento va a correr hasta que alcance una fecha en específico'
+    after: 'Correr hasta alcanzar una cierta cantidad de repeticiones'
+    after_help: 'El evento va a correr hasta que alcance una cierta cantidad de repeticiones'
+    executions: 'ejecuciones.'
+r_rule_popover:
+  clear: Borrar
+json_schema_views:
+  eui_theme:
+    schema_field_checkbox:
+      no_options: 'No hay opciones disponibles'
+    schema_field_select:
+      no_options: 'No hay opciones disponibles'
+validated_form:
+  confirm_password: Confirma tu contraseña actual
+  confirm_details: Por favor re-ingresa tu contraseña para confirmar tus cambios
+  confirm: Confirmar

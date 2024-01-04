@@ -1,0 +1,96 @@
+new: 'Nuevo'
+fields:
+  location:
+    cancel: Cancelar
+    confirm: Confirmar
+    add: Agregar otra ubicación
+    locate: Ubicar
+    latitude: Lat
+    longitude: Lng
+    latitude_help: -90 a 90
+    longitude_help: -180 a 180
+power_select_button:
+  before_options:
+    create_placeholder: Escribe para crear
+rrule:
+  with_start_date: A partir del {dateText}, {rruleText}
+  with_subject: '{dateText}, {subject}'
+  with_start_date_and_subject: A partir del {dateText}, {subject}, {rruleText}
+  day_names:
+    sunday: Domingo
+    monday: Lunes
+    tuesday: Martes
+    wednesday: Miércoles
+    thursday: Jueves
+    friday: Viernes
+    saturday: Sábado
+  month_names:
+    january: Enero
+    february: Febrero
+    march: Marzo
+    april: Abril
+    may: Mayo
+    june: Junio
+    july: Julio
+    august: Agosto
+    september: Septiembre
+    october: Octubre
+    november: Noviembre
+    december: Diciembre
+  tokens:
+    skip: ''
+    number: number
+    every: cada
+    day: día
+    days: días
+    weekday: día entre semana
+    weekdays: día de la semana
+    week: semana
+    weeks: semanas
+    hour: hora
+    hours: horas
+    minute: minuto
+    minutes: minutos
+    month: mes
+    months: meses
+    year: año
+    years: años
+    on: 'en'
+    on_the: 'en el'
+    and: 'y'
+    nd: 'do'
+    rd: 'ero'
+    st: 'ero'
+    th: 'to'
+    at: 'en'
+    the: 'el'
+    first: primero
+    second: segundo
+    third: tercero
+    nth: nth
+    last: último
+    for: para
+    time: vez
+    times: veces
+    until: hasta
+    monday: lunes
+    tuesday: martes
+    wednesday: miércoles
+    thursday: jueves
+    friday: viernes
+    saturday: sábado
+    sunday: domingo
+    january: enero
+    february: febrero
+    march: marzo
+    april: abril
+    may: mayo
+    june: junio
+    july: julio
+    august: agosto
+    september: septiembre
+    october: octubre
+    november: noviembre
+    december: diciembre
+    comma: ','
+  errors: No pudimos convertir tu calendario a texto

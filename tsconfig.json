@@ -1,0 +1,24 @@
+{
+  "extends": "@tsconfig/ember/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noPropertyAccessFromIndexSignature": false,
+    "noEmitOnError": false,
+    "paths": {}
+  },
+  "include": [
+    "index.js",
+    "ember-cli-build.js",
+    "testem.js",
+    "config/**/*",
+    "app/**/*",
+    "addon/**/*",
+    "tests/**/*",
+    "types/**/*",
+    "test-support/**/*",
+    "addon-test-support/**/*"
+  ],
+  "glint": {
+    "environment": ["ember-loose", "ember-template-imports"]
+  }
+}

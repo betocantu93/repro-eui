@@ -1,0 +1,171 @@
+r_rule_generator:
+  locale: 'en-gb'
+  invalid_rrule: You provided an invalid RRule value to component. '{value}' is not a correct RRule string.
+  months:
+    jan: 'January'
+    feb: 'February'
+    mar: 'March'
+    apr: 'April'
+    may: 'May'
+    jun: 'June'
+    jul: 'July'
+    aug: 'August'
+    sep: 'September'
+    oct: 'October'
+    nov: 'November'
+    dec: 'December'
+
+  days_short:
+    mon: 'Mon'
+    tue: 'Tue'
+    wed: 'Wed'
+    thu: 'Thu'
+    fri: 'Fri'
+    sat: 'Sat'
+    sun: 'Sun'
+
+  days:
+    monday: 'Monday'
+    tuesday: 'Tuesday'
+    wednesday: 'Wednesday'
+    thursday: 'Thursday'
+    friday: 'Friday'
+    saturday: 'Saturday'
+    sunday: 'Sunday'
+    day: 'Day'
+    weekday: 'Weekday'
+    weekend_day: 'Weekend day'
+
+  numerals_by_number:
+    1: '1'
+    2: '2'
+    3: '3'
+    4: '4'
+    5: '5'
+    6: '6'
+    7: '7'
+    8: '8'
+    9: '9'
+    10: '10'
+    11: '11'
+    12: '12'
+    13: '13'
+    14: '14'
+    15: '15'
+    16: '16'
+    17: '17'
+    18: '18'
+    19: '19'
+    20: '20'
+    21: '21'
+    22: '22'
+    23: '23'
+    24: '24'
+    25: '25'
+    26: '26'
+    27: '27'
+    28: '28'
+    29: '29'
+    30: '30'
+    31: '31'
+    '-1': 'Last'
+    '-2': 'Penultimate'
+    '-3': 'Third to last'
+    '-4': 'Fourth to last'
+    '-5': 'Fifth to last'
+    '-6': 'Sixth to last'
+    '-7': 'Seventh to last'
+    '-8': 'Eighth to last'
+    '-9': 'Ninth to last'
+    '-10': 'Tenth to last'
+    '-11': 'Eleventh to last'
+    '-12': 'Twelfth to last'
+    '-13': 'Thirteenth to last'
+    '-14': 'Fourteenth to last'
+    '-15': 'Fifteenth to last'
+    '-16': 'Sixteenth to last'
+    '-17': 'Seventeenth to last'
+    '-18': 'Eighteenth to last'
+    '-19': 'Nineteenth to last'
+    '-20': 'Twentieth to last'
+    '-21': 'Twenty-first to last'
+    '-22': 'Twenty-second to last'
+    '-23': 'Twenty-third to last'
+    '-24': 'Twenty-fourth to last'
+    '-25': 'Twenty-fifth to last'
+    '-26': 'Twenty-sixth to last'
+    '-27': 'Twenty-seventh to last'
+    '-28': 'Twenty-eighth to last'
+    '-29': 'Twenty-ninth to last'
+    '-30': 'Thirtieth to last'
+
+  numerals:
+    first: 'First'
+    second: 'Second'
+    third: 'Third'
+    fourth: 'Fourth'
+    last: 'Last'
+
+  start:
+    label: 'Start'
+    on: 'on'
+
+  repeat:
+    label: 'Repeat'
+    yearly:
+      label: 'Yearly'
+      on: 'on day'
+      on_the: 'on the'
+      of: 'of'
+      every: 'Every'
+      years: 'year(s)'
+
+    monthly:
+      label: 'Monthly'
+      every: 'Every'
+      months: 'month(s)'
+      on_day: 'on day'
+      on_the: 'on the'
+
+    weekly:
+      label: 'Weekly'
+      every: 'Every'
+      weeks: 'week(s)'
+
+    daily:
+      label: 'Daily'
+      every: 'Every'
+      days: 'day(s)'
+
+    hourly:
+      label: 'Hourly'
+      every: 'Every'
+      hours: 'hour(s)'
+
+    minutely:
+      label: 'Minutely'
+      every: 'Every'
+      minutes: 'minute(s)'
+
+  end:
+    label: 'Stop condition'
+    tooltip: 'Datetime picker for end on date'
+    never: 'Never'
+    never_help: 'The event will repeat indefinitely'
+    after: 'After'
+    after_help: 'The event will repeat until it reaches certain amount of occurrences'
+    on_date: 'On date'
+    on_date_help: 'The event will run until it reaches an specific date'
+    executions: 'executions.'
+r_rule_popover:
+  clear: Clear
+json_schema_views:
+  eui_theme:
+    schema_field_checkbox:
+      no_options: 'No options are available'
+    schema_field_select:
+      no_options: 'No options are available'
+validated_form:
+  confirm_password: Confirm your current password
+  confirm_details: Please re-enter your password to confirm your updates
+  confirm: Confirm

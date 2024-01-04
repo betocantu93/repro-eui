@@ -1,0 +1,96 @@
+new: 'New'
+fields:
+  location:
+    cancel: Cancel
+    confirm: Confirm
+    add: Add another location
+    locate: Locate
+    latitude: Lat
+    longitude: Lng
+    latitude_help: -90 to 90
+    longitude_help: -180 to 180
+power_select_button:
+  before_options:
+    create_placeholder: Type to create
+rrule:
+  with_start_date: Starting at {dateText}, {rruleText}
+  with_subject: '{dateText}, {subject}'
+  with_start_date_and_subject: Starting at {dateText}, {subject}, {rruleText}
+  day_names:
+    sunday: Sunday
+    monday: Monday
+    tuesday: Tuesday
+    wednesday: Wednesday
+    thursday: Thursday
+    friday: Friday
+    saturday: Saturday
+  month_names:
+    january: January
+    february: February
+    march: March
+    april: April
+    may: May
+    june: June
+    july: July
+    august: August
+    september: September
+    october: October
+    november: November
+    december: December
+  tokens:
+    skip: ''
+    number: number
+    every: every
+    day: day
+    days: days
+    weekday: weekday
+    weekdays: weekdays
+    week: week
+    weeks: weeks
+    hour: hour
+    hours: hours
+    minute: minute
+    minutes: minutes
+    month: month
+    months: months
+    year: year
+    years: years
+    on: 'on'
+    on_the: 'on the'
+    and: 'and'
+    nd: 'nd'
+    rd: 'rd'
+    st: st
+    th: th
+    at: 'at'
+    the: 'the'
+    first: first
+    second: second
+    third: third
+    nth: nth
+    last: last
+    for: for
+    time: time
+    times: times
+    until: until
+    monday: monday
+    tuesday: tuesday
+    wednesday: wednesday
+    thursday: thursday
+    friday: friday
+    saturday: saturday
+    sunday: sunday
+    january: january
+    february: february
+    march: march
+    april: april
+    may: may
+    june: june
+    july: july
+    august: august
+    september: september
+    october: october
+    november: november
+    december: december
+    comma: ','
+  errors: Unable to fully convert this schedule to text
